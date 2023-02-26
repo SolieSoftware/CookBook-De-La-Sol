@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="C:\Users\solsh\OneDrive\Documents\Projects\CookBook_De_La_Sol\Styles\Italian_Recipes.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Sacramento&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <nav>
+            <a href="./RecipeDir.html">HomePage</a>
+        </nav>
+        <section class="recipe-1">
+            <div class="pesto-pasta">
+
+            </div>
+            <div class="pesto-pasta-ingredients">
+                <h2>Pesto Pasta</h2>
+                <ul>
+                    <li><h3>Jar Of Pesto</h3></li>
+                    <li><h3>Creme Fraiche</h3></li>
+                    <li><h3>Halloumi</h3></li>
+                    <li><h3>Pecorino Cheese</h3></li>
+                    <li><h3>Pasta (100g per person)</h3></li>
+                    <li><h3>Salt</h3></li>
+                </ul>
+            </div>
+            <div class="pesto-pasta-method">
+                <ol>
+                    <li>Heavily salt the water with sea salt. Two pinches or more should suffice. Place pasta in water and leave to boil.</li>
+                    <li>Apply Olive Oil to pan and fry Halloumi until flakes of brown crispiness appear on the edges.</li>
+                    <li>After pasta is cooked, drain salt water, add halloumi, add pesto, add creme fraiche and stir.</li>
+                    <li>Serve with a sprinkle of pecorino on the top. </li>
+                </ol>
+            </div>
+
+        </section>
+        <section class="recipe-2">
+            <div class="pasta-bacon-mozzarella">
+
+            </div>
+        </section>
+        <section class="recipe-2">
+            <div class="pasta-carbonara">
+            </div>
+            <div class="pasta-carbonara-ingredients">
+                <h2>Pasta Carbonara</h2>
+                <ul>
+                    <li><h3>Pasta</h3></li>
+                    <li><h3>Pancetta - 1 pack</h3></li>
+                    <li><h3>Grated Parmeggiano</h3></li>
+                    <li><h3>2 Garlic Cloves</h3></li>
+                    <li><h3>2 Egg Yolks</h3></li>
+                    <li><h3>Salt & Pepper</h3></li>
+                </ul>
+            </div>
+            <div class="pasta-carbonara-method">
+                <ol>
+                    <li>Heavily salt the water with sea salt. Two pinches or more should suffice. Place pasta in water and leave to boil.</li>
+                    <li>Crack eggs into a bowl. Rub fingers on garlic cloves. Use newly garlic-rubbed fingers to phish out egg yolks with ease and place in another bowl.
+                        Whisk together with some salt and pepper and a dab of sugar.
+                    </li>
+                    <li>Oil a pan. Add pancetta. Chop garlic finely while pancetta is frying. Add garlic to pan when pancetta has browned and is starting to crisp.</li>
+                    <li>Strain pasta water but leave a little to mix. Add whisked egg yolks, pancetta and parmeggiano. Mix throughly while heated.</li>
+                </ol>
+            </div>
+
+        </section>
+    </body>
+</html>
