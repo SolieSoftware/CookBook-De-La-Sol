@@ -1,0 +1,71 @@
+.navigation {
+    width: 100%;
+    display:flex;
+    justify-content: right;
+
+}
+
+.navbar {
+    font-size: 0;
+    background-color:white;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 1;
+    border-radius: 10px;
+    display: flex;
+}
+
+.navbar li{
+    display: inline-flex;
+    padding: 0 20px;
+    margin: 0 5px;
+    border: 5px solid rgb(54, 210, 69);
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.navbar li a {
+    display: flex;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    text-decoration: none;
+    color:blueviolet;
+
+}
+
+.header {
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    height: 900px;
+    position: relative;
+    background-image: url('../Images/pexels-photo-326333.jpeg');
+    align-items: center;
+}
+
+
+.title {
+    display: flex;
+    font-weight: bold;
+    font-size: 50px; 
+    font-family: Arizonia;
+    color: white;
+    background-image: url('../Images/pasta-1033216_1280.jpg');
+    background-position: center;
+    width: 900px;
+    height: 600px;
+    justify-content: center;
+}
+
+.cookbook {
+    width: 900px;
+    height: 600px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
