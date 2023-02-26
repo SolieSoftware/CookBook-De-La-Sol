@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href = "C:\Users\solsh\OneDrive\Documents\Projects\CookBook_De_La_Sol\Styles\RecipeDir_Styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navigation">
+            <ul class="navbar">
+                <li><a href="#">Chinese</a></li>
+                <li><a href="#">British</a></li>
+                <li><a href="#">Italian</a></li>
+                <li><a href="#">Indian</a></li>
+                <li><a href="#">Desserts</a></li>
+            </ul>
+        </div>
+        </body>
+
+        </body>
+        <header>
+            <div class="header">
+                <div class="title">
+                    <strong class="cookbook">
+                        <h1>La CookBook</h1>
+                        <h1>De La</h1>
+                        <h1>Sol</h1>
+                    </strong>
+                </div>
+                <div class="right-image">
+                </div>
+            </div>
+        </header>
+        <div class="section1">
+
+        </div>
+
+    </body>
+    <script src="C:\Users\solsh\OneDrive\Documents\Projects\Websites\RecipeDir.js">
+
+    </script>
+</html>
+
