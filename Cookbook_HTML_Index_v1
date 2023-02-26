@@ -4,21 +4,30 @@
         <link href = "C:\Users\solsh\OneDrive\Documents\Projects\CookBook_De_La_Sol\Styles\RecipeDir_Styles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <div class="navigation">
-            <ul class="navbar">
-                <li><a href="#">Chinese</a></li>
-                <li><a href="#">British</a></li>
-                <li><a href="#">Italian</a></li>
-                <li><a href="#">Indian</a></li>
-                <li><a href="#">Desserts</a></li>
-            </ul>
+    <div class="navigation">
+        <div class="dropdown">
+            <a href="">
+                Explore
+                <img src='./Images/Menu/Menu_burger.svg'>
+            </a>
+            <div class="menu">
+                <a href="#">Popular</a>
+                <a href="#">Favourites</a>
+                <a href="#"> Chef's Specialities</a>
+            </div>
         </div>
-        </body>
-
-        </body>
+    </div>
+    <body>
         <header>
             <div class="header">
+                <div class="british">
+                    <h2>British</h2>
+                </div>
+                <div class="chinese"><h2>Chinese</h2></div>
+                <div class="indian"><h2>Indian</h2></div>
+                <div class="french"><h2>French</h2></div>
+                <div class="italian"><h2><a href="./Italian_Recipes.html" class="italian-link">Italian</a></h2></div>
+                <div class="greek"><h2>Greek</h2></div>
                 <div class="title">
                     <strong class="cookbook">
                         <h1>La CookBook</h1>
@@ -39,4 +48,5 @@
 
     </script>
 </html>
+
 
