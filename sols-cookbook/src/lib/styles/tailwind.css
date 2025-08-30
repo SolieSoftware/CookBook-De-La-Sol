@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #FFC727;
+    --color-secondary: #FF8A80;
+    --color-tertiary: #FF3E00;
+    --color-quaternary: #FF0000;
+    --color-quinary: #FF0000;
+    --color-senary: #FF0000;
+    --color-septenary: #FF0000;
+    --color-octonary: #FF0000;
+    --color-nonary: #FF0000;
+    --color-denary: #FF0000;
+}
+
+@utilties {
+    .text-priamry {
+        color: var(--color-primary);
+    }
+    .text-secondary {
+        color: var(--color-secondary);
+    }
+    .text-tertiary {
+        color: var(--color-tertiary);
+    }
+    .text-quaternary {
+    }
+}
