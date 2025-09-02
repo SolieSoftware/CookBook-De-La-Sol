@@ -105,6 +105,7 @@ aria-label="Next Slide"
         position: relative;
         height: 600px;
         width: 100%;
+        background-color: red;
     }
 
     .recipe-carousel__arrow {

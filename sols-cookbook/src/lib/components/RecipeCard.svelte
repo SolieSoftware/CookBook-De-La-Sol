@@ -37,7 +37,7 @@
     </div>
     <div class='recipe-card-back card-face'>
         <h3 class="recipe-carousel__item-title">{recipe.title}</h3>
-        <p class="recipe-carousel__item-description">{recipe.description}</p>
+        {@html recipe.recipe}
     </div>
     </div>
 </button>
@@ -77,6 +77,7 @@
         background: linear-gradient(135deg, #667eea 0%, #a88dc4 100%);
         color: rgb(245, 10, 10);
         transform: rotateY(180deg);
+        overflow-y: auto;
     }
 
     .recipe-carousel__image {

@@ -24,5 +24,20 @@
         color: var(--color-tertiary);
     }
     .text-quaternary {
+        color: var(--color-quaternary);
     }
+    .text-quinary {
+        color: var(--color-quinary);
+    }
+    .text-senary {
+        color: var(--color-senary);
+    }
+}
+
+.page-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--color-quaternary);
 }
