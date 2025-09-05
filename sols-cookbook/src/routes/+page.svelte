@@ -1,40 +1,35 @@
 <script>
-	import kibbleImage from '../static/images/kibble.webp';
-	import italianImage from '../static/images/italian_food_homepage.jpeg';
-	import mexicanImage from '../static/images/mexican_food_homepage.jpg';
-	import asianImage from '../static/images/asian_food_homepage.jpg';
-	import americanImage from '../static/images/american_food_homepage.webp';
-	import frenchImage from '../static/images/french_food_homepage.jpg';
+	import { homepageObj } from "$lib/assets/pages/homepage";
 
 	let cusines = {
 		italian: {
 			name: "Italian",
 			description: "Pasta, pizza, and more",
-			image: italianImage,
+			image: homepageObj.italianImage,
 			href: "/italian"
 		},
 		mexican: {
 			name: "Mexican",
 			description: "Tacos, enchiladas, and spices",
-			image: mexicanImage,
+			image: homepageObj.mexicanImage,
 			href: "/mexican"
 		},
 		asian: {
 			name: "Asian",
 			description: "Stir-fries, curries, and noodles",
-			image: asianImage,
+			image: homepageObj.asianImage,
 			href: "/asian"
 		},
 		american: {
 			name: "American",
 			description: "Burgers, fries, and more",
-			image: americanImage,
+			image: homepageObj.americanImage,
 			href: "/american"
 		},
 		french: {
 			name: "French",
 			description: "Croissants, baguettes, and more",
-			image: frenchImage,
+			image: homepageObj.frenchImage,
 			href: "/french"
 		}
 	}
@@ -49,7 +44,7 @@
 	<h1>Hello Kibbler!</h1>
 	<p>Welcome to the world of Stuart Kibble!</p>
 	<div class="image-placeholder">
-		<img src={kibbleImage} alt="Kibble" class="kibble-image" />
+		<img src={homepageObj.kibbleImage} alt="Kibble" class="kibble-image" />
 	</div>
 </section>
 

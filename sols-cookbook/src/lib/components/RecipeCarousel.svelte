@@ -89,11 +89,13 @@ aria-label="Next Slide"
     .recipe-carousel {
          position: relative;
          overflow: hidden;
-         width: 100%;
-         height: 100%;
+         max-width: 1200px;
+         margin: 0 auto;
      }
 
     .recipe-carousel__track {
+        width: 100%;
+        height: 100%;
         display: flex;
         transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         will-change: transform;
@@ -103,9 +105,8 @@ aria-label="Next Slide"
         flex: 0 0 100%;
         min-width: 0;
         position: relative;
-        height: 600px;
+        height: 800px;
         width: 100%;
-        background-color: red;
     }
 
     .recipe-carousel__arrow {
@@ -113,7 +114,7 @@ aria-label="Next Slide"
         top: 50%;
         transform: translateY(-50%);
         background: rgba(0, 0, 0, 0.5);
-        color: #fff;
+        color: #af2929;
         border: none;
         padding: 10px;
         border-radius: 50%;

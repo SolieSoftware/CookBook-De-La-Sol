@@ -50,12 +50,13 @@
         border: none;
         padding: 0;
         perspective: 1000px;
+        border-radius: 10px;
     }
 
     .recipe-card {
         position: relative;
         width: 100%;
-        height: 600px;
+        height: 100%;
         transform-style: preserve-3d;
     }
 
@@ -74,10 +75,12 @@
     }
 
     .recipe-card-back  {
-        background: linear-gradient(135deg, #667eea 0%, #a88dc4 100%);
-        color: rgb(245, 10, 10);
+        background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+        color: #333;
         transform: rotateY(180deg);
         overflow-y: auto;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     .recipe-carousel__image {
