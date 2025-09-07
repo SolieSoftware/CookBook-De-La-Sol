@@ -1,4 +1,4 @@
-const burritoRecipe = `
+export const burritoRecipe = `
 <div class="recipe-content">
     <h1>Rice and Chorizo Burrito</h1>
 
@@ -105,7 +105,7 @@ const burritoRecipe = `
 </div>
 `;
 
-const tacoRecipe = `
+export const tacoRecipe = `
 <div class="recipe-content">
   <h1>🌮 Authentic Beef Tacos</h1>
   
@@ -315,7 +315,7 @@ const tacoRecipe = `
 </div>
 `;
 
-const enchiladaRecipe = `
+export const enchiladaRecipe = `
 <div class="recipe-content">
     <h1>🌶️ Chicken Enchiladas</h1>
     
@@ -659,10 +659,12 @@ const molePoblanoRecipe = `
 </div>
 `;
 
-export const mexicanRecipes = {
+export const mexicanRecipesObj = {
   burrito: burritoRecipe,
   taco: tacoRecipe,
   enchilada: enchiladaRecipe,
   chilesRilenos: chilesRilenosRecipe,
   molePoblano: molePoblanoRecipe
-}
+};
+
+export default mexicanRecipesObj;

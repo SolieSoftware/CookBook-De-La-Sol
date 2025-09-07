@@ -1,4 +1,5 @@
 <script>
+    import bluePattern from '$lib/assets/images/components/restaurant_blue_pattern.webp';
     let { recipe } = $props();
     import { spring } from 'svelte/motion';
 
@@ -36,8 +37,7 @@
         </div>
     </div>
     <div class='recipe-card-back card-face'>
-        <h3 class="recipe-carousel__item-title">{recipe.title}</h3>
-        {@html recipe.recipe}
+        <div bind:innerHTML={recipe.recipe} contenteditable class="recipe-carousel__item-recipe"></div>
     </div>
     </div>
 </button>
@@ -51,6 +51,7 @@
         padding: 0;
         perspective: 1000px;
         border-radius: 10px;
+        
     }
 
     .recipe-card {
@@ -75,7 +76,7 @@
     }
 
     .recipe-card-back  {
-        background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+        background-image: url($bluePattern);
         color: #333;
         transform: rotateY(180deg);
         overflow-y: auto;
@@ -115,5 +116,11 @@
         line-height: 1.5;
         margin-bottom: 20px;
     }               
+
+    .recipe-carousel__item-recipe {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
 
 </style>
