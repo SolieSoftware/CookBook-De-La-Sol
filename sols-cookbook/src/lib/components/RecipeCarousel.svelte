@@ -30,13 +30,13 @@
   role="region"
   aria-roledescription="Recipe Carousel"
 >
-  <div class="recipe-carousel__track" style="transform: translateX(-{currentIndex * 100}%)">
-    {#each recipes as recipe, index}
-      <div class="recipe-carousel__slide" class:active={index === currentIndex}>
-        <RecipeCard {recipe} />
-      </div>
-    {/each}
-  </div>
+    <div class="recipe-carousel__track" style="transform: translateX(-{currentIndex * 100}%)">
+      {#each recipes as recipe, index}
+        <div class="recipe-carousel__slide {index === currentIndex ? 'active' : ''}">
+          <RecipeCard {recipe} />
+        </div>
+      {/each}
+    </div>
 </div>
 
 {#if showArrows}
@@ -75,8 +75,9 @@
     position: relative;
     overflow: hidden;
     max-width: 1200px;
-    max-height: 800px;
+    height: 800px;
     margin: 0 auto;
+    width: 100%;
   }
 
   .recipe-carousel__track {
@@ -89,10 +90,13 @@
 
   .recipe-carousel__slide {
     flex: 0 0 100%;
-    min-width: 0;
     position: relative;
     height: 800px;
     width: 100%;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .recipe-carousel__arrow {
@@ -129,7 +133,7 @@
 
   .recipe-carousel__dots {
     position: absolute;
-    bottom: 10px;
+    bottom: -250px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -144,6 +148,8 @@
     background: rgba(255, 255, 255, 0.5);
     border: none;
     cursor: pointer;
+    background-color: #05025f;
+    border: 2px solid #05025f;
   }
 
   .carousel-dot.active {
