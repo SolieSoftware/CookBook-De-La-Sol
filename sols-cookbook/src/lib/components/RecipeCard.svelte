@@ -129,8 +129,8 @@
         class="recipe-card-back"
         style="
           backface-visibility: hidden;
-          background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-          color: #333;
+          background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
+          color: #ffd700;
           transform: rotateY(180deg);
           box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
         "
@@ -274,9 +274,10 @@
     top: 16px;
     right: 16px;
     font-size: 0.75rem;
-    color: #6b7280;
+    color: #ffd700;
     font-style: italic;
     margin-bottom: 16px;
+    opacity: 0.8;
   }
 
   .recipe-content-back {
@@ -284,19 +285,21 @@
     line-height: 1.6;
     margin-bottom: 20px;
     padding: 16px;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 215, 0, 0.1);
     border-radius: 8px;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 2px 4px rgba(255, 215, 0, 0.2);
     max-height: calc(100% - 60px);
     overflow-y: auto;
     margin-top: 40px;
+    color: #ffd700;
+    border: 1px solid rgba(255, 215, 0, 0.3);
   }
 
   .recipe-back-gradient {
     position: absolute;
     inset: 0;
     pointer-events: none;
-    background: linear-gradient(to bottom, transparent 90%, rgba(195, 207, 226, 0.8) 100%);
+    background: linear-gradient(to bottom, transparent 90%, rgba(0, 0, 0, 0.0) 100%);
   }
 
   .no-recipe-message {

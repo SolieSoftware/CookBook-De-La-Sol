@@ -1,3 +1,7 @@
+<script>
+	import '$lib/styles/tailwind.css';
+</script>
+
 <nav>
 	<a href="/">Home</a>
 	<a href="/about">About</a>
@@ -36,9 +40,9 @@
 	}
 
 	main {
-		max-width: 1200px;
+		max-width: 100%;
 		margin: 0 auto;
-		padding: 2rem;
+		padding: 0;
 		min-height: calc(100vh - 100px);
 	}
 </style>

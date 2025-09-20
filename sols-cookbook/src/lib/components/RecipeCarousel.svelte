@@ -123,14 +123,6 @@
     right: 10px;
   }
 
-  .recipe-carousel__arrow-icon {
-    width: 24px;
-    height: 24px;
-    color: #05025f;
-    cursor: pointer;
-    fill: #05025f;
-  }
-
   .recipe-carousel__dots {
     position: absolute;
     bottom: -250px;
